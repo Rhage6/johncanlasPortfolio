@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(24, 9, 82) , rgb(91, 56, 218));
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+ul li{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+header{
+    width: 100vw;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 3em;
+    width: fit-content;
+    padding: 8em;
+}
+
+.introduction{
+    padding: 1em;
+}
+
+.introduction p{
+    width:fit-content;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.info img{
+    width: 25%;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 6em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.links a img{
+    height: 3.5vh;
+    width: 2vw;
+    padding: 5px;
+    transition: 0.2s;
+
+}
+
+.links a img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.IntroductionReadMore{
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 14px;
+}
+
+/* CSS */
+.button-40 {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
